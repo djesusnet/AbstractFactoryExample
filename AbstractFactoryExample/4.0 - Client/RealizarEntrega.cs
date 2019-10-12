@@ -3,7 +3,7 @@ using System;
 
 namespace AbstractFactoryExample.AbstractFactory
 {
-    // Client Clas
+    // Client Class
     public class RealizarEntrega
     {
         private readonly Pedido _pedido;

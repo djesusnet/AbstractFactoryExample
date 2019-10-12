@@ -21,6 +21,8 @@ namespace AbstractFactoryExample.AbstractFactory
         }
 
     }
+
+    // Produto Concreto
     public class EntregaNormal : Entrega
     {
         public EntregaNormal(string localidade, Tipo tipo, string produto) : base(localidade, tipo, produto)
